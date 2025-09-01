@@ -8,16 +8,7 @@ Liver Guardian ML is a machine learning project designed to assist in analyzing 
 
 ```
 LiverGuardian/
-│-- data/                # Raw data files (excluded from GitHub)
-│-- dataset/             # Additional datasets (excluded)
-│-- logs/                # Training and evaluation logs
-│-- models/              # Saved ML models
-│-- outputs/             # Model predictions and evaluation outputs
-│-- plots/               # Visualizations and graphs
-│-- processed/           # Preprocessed datasets
 │-- reports/             # Generated reports and summaries
-│-- scalers/             # Scaler objects used in preprocessing
-│-- .vscode/             # IDE settings (excluded)
 │-- venv/                # Virtual environment (excluded)
 │-- main.ipynb           # Main Jupyter Notebook
 │-- .gitignore           # Git ignore file
@@ -25,7 +16,7 @@ LiverGuardian/
 
 ---
 
-## 🚀 Features
+## Features
 
 * End-to-end ML pipeline for liver disease analysis
 * Data preprocessing and feature engineering
@@ -60,7 +51,7 @@ LiverGuardian/
 
 ---
 
-## 📊 Usage
+## Usage
 
 Open the main Jupyter Notebook:
 
@@ -76,7 +67,7 @@ python main.py
 
 ---
 
-## 🧾 Reports
+## Reports
 
 Reports are generated automatically after pipeline execution and stored in `reports/`. These include:
 
@@ -87,7 +78,7 @@ Reports are generated automatically after pipeline execution and stored in `repo
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 * Integration with deep learning models
 * API deployment for predictions
@@ -95,12 +86,12 @@ Reports are generated automatically after pipeline execution and stored in `repo
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome. Please fork the repo, create a branch, and submit a pull request.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
