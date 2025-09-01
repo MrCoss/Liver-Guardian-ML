@@ -1,6 +1,7 @@
 # Liver Guardian ML
 
 Liver Guardian ML is a machine learning project designed to assist in analyzing and predicting liver-related health conditions using structured clinical and laboratory datasets. The project provides an end-to-end pipeline covering data preprocessing, exploratory data analysis (EDA), model training, evaluation, and reporting.
+[01_stage_distribution.pdf](https://github.com/user-attachments/files/22074373/01_stage_distribution.pdf)
 
 ---
 
