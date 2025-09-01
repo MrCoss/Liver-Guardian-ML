@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor settings
+.vscode/
+*.code-workspace
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data / Outputs (keep repo lightweight)
+data/
+dataset/
+outputs/
+logs/
+plots/
+processed/
+models/
+scalers/
+
+# Reports (if generated files)
+reports/*.html
+reports/*.pdf
+reports/*.docx
+
+# Other
+*.log

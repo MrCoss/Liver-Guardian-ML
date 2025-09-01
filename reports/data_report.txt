@@ -1,0 +1,31 @@
+=== Data Cleaning Report ===
+
+Rows: 25000, Columns: 18
+
+Column Details:
+- Status: object, Missing=0 (0.00%), Unique=3
+- Drug: object, Missing=0 (0.00%), Unique=2
+- Age: float64, Missing=0 (0.00%), Unique=269
+- Sex: object, Missing=0 (0.00%), Unique=2
+- Ascites: Int64, Missing=0 (0.00%), Unique=2
+- Hepatomegaly: Int64, Missing=0 (0.00%), Unique=2
+- Spiders: Int64, Missing=0 (0.00%), Unique=2
+- Edema: Int64, Missing=3698 (14.79%), Unique=2
+- Bilirubin: float64, Missing=0 (0.00%), Unique=113
+- Cholesterol: float64, Missing=0 (0.00%), Unique=220
+- Albumin: float64, Missing=0 (0.00%), Unique=179
+- Copper: float64, Missing=0 (0.00%), Unique=197
+- Alk_Phos: float64, Missing=0 (0.00%), Unique=336
+- SGOT: float64, Missing=0 (0.00%), Unique=240
+- Tryglicerides: float64, Missing=0 (0.00%), Unique=157
+- Platelets: float64, Missing=0 (0.00%), Unique=295
+- Prothrombin: float64, Missing=0 (0.00%), Unique=51
+- Stage: Int64, Missing=0 (0.00%), Unique=3
+
+Preview of first 5 rows:
+  Status     Drug   Age Sex  Ascites  Hepatomegaly  Spiders  Edema  Bilirubin  Cholesterol  Albumin  Copper  Alk_Phos    SGOT  Tryglicerides  Platelets  Prothrombin  Stage
+0      C  Placebo  50.7   F        0             1        0      0        0.5        149.0     4.04   227.0     598.0   52.70           57.0      256.0          9.9      1
+1      C  Placebo  54.0   M        1             0        1      0        0.5        219.0     3.93    22.0     663.0   45.00           75.0      220.0         10.8      2
+2      C  Placebo  32.4   F        0             0        0      0        0.5        320.0     3.54    51.0    1243.0  122.45           80.0      225.0         10.0      2
+3      D  Placebo  45.1   F        0             0        0      0        0.7        255.0     3.74    23.0    1024.0   77.50           58.0      151.0         10.2      2
+4      D  Placebo  59.4   F        0             1        0      0        1.9        486.0     3.54    74.0    1052.0  108.50          109.0      151.0         11.5      1

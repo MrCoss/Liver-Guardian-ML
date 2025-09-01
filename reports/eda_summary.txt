@@ -1,0 +1,83 @@
+=== EDA Summary ===
+
+Dataset shape: (25000, 18)
+Target column: Stage
+Numerical features: ['Age', 'Bilirubin', 'Cholesterol', 'Albumin', 'Copper', 'Alk_Phos', 'SGOT', 'Tryglicerides', 'Platelets', 'Prothrombin']
+Categorical features: ['Sex', 'Drug', 'Status', 'Ascites', 'Hepatomegaly', 'Spiders', 'Edema']
+
+Class distribution:
+Stage
+2    8441
+3    8294
+1    8265
+Name: count, dtype: int64
+
+Numerical feature stats:
+                 count         mean          std     min      25%  \
+Age            25000.0    50.664724    10.239379   26.30    43.00   
+Bilirubin      25000.0     3.402644     4.707491    0.30     0.80   
+Cholesterol    25000.0   372.331471   193.668452  120.00   275.00   
+Albumin        25000.0     3.486578     0.380488    1.96     3.29   
+Copper         25000.0   100.184663    73.184840    4.00    52.00   
+Alk_Phos       25000.0  1995.675597  1798.885660  289.00  1032.00   
+SGOT           25000.0   123.166345    47.747616   26.35    92.00   
+Tryglicerides  25000.0   123.822548    52.786350   33.00    92.00   
+Platelets      25000.0   256.007337    98.679006   62.00   189.00   
+Prothrombin    25000.0    10.734549     0.904436    9.00    10.00   
+
+                       50%          75%       max  
+Age              50.700000    57.400000     78.50  
+Bilirubin         1.300000     3.400000     28.00  
+Cholesterol     369.510563   369.510563   1775.00  
+Albumin           3.510000     3.750000      4.64  
+Copper           97.648387   107.000000    588.00  
+Alk_Phos       1828.000000  1982.655769  13862.40  
+SGOT            122.556346   134.850000    457.25  
+Tryglicerides   124.702128   127.000000    598.00  
+Platelets       251.000000   311.000000    721.00  
+Prothrombin      10.600000    11.100000     18.00  
+
+Categorical feature counts:
+
+--- Sex ---
+Sex
+F    22137
+M     2863
+Name: count, dtype: int64
+
+--- Drug ---
+Drug
+Placebo            15827
+D-penicillamine     9173
+Name: count, dtype: int64
+
+--- Status ---
+Status
+C     13516
+D      9456
+CL     2028
+Name: count, dtype: int64
+
+--- Ascites ---
+Ascites
+0    16798
+1     8202
+Name: count, dtype: Int64
+
+--- Hepatomegaly ---
+Hepatomegaly
+0    15243
+1     9757
+Name: count, dtype: Int64
+
+--- Spiders ---
+Spiders
+0    13614
+1    11386
+Name: count, dtype: Int64
+
+--- Edema ---
+Edema
+0    20220
+1     1082
+Name: count, dtype: Int64

@@ -1,0 +1,47 @@
+=== Preprocessing Summary ===
+
+Original dataset shape: (25000, 17)
+Train: (17510, 17), Val: (3740, 17), Test: (3750, 17)
+
+Class distribution (y):
+Train:
+Stage
+2    0.337636
+3    0.331753
+1    0.330611
+Name: proportion, dtype: float64
+
+Val:
+Stage
+2    0.337701
+3    0.331818
+1    0.330481
+Name: proportion, dtype: float64
+
+Test:
+Stage
+2    0.337600
+3    0.331733
+1    0.330667
+Name: proportion, dtype: float64
+
+Numerical features: ['Age', 'Ascites', 'Hepatomegaly', 'Spiders', 'Edema', 'Bilirubin', 'Cholesterol', 'Albumin', 'Copper', 'Alk_Phos', 'SGOT', 'Tryglicerides', 'Platelets', 'Prothrombin']
+Categorical features: ['Status', 'Drug', 'Sex']
+
+Preprocessor steps:
+ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='median')),
+                                                 ('scaler', StandardScaler())]),
+                                 ['Age', 'Ascites', 'Hepatomegaly', 'Spiders',
+                                  'Edema', 'Bilirubin', 'Cholesterol',
+                                  'Albumin', 'Copper', 'Alk_Phos', 'SGOT',
+                                  'Tryglicerides', 'Platelets',
+                                  'Prothrombin']),
+                                ('cat',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore',
+                                                                sparse_output=False))]),
+                                 ['Status', 'Drug', 'Sex'])])
